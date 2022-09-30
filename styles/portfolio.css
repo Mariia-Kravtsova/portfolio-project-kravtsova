@@ -96,18 +96,36 @@ border-radius: 4px;
 }
 
 .logo {
-    max-width: 188px;
+    max-width: 200px;
 }
 
 nav ul {
-    padding: 0;
+    padding: 39px;
     margin: 0;
+    font-size: 17px;
+}
+
+nav a {
+    margin: 0 10px;
 }
 
 nav li {
     display: inline;
     list-style:none;
+    line-height: 42px;
+    margin-left: 15px;
 }
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a :hover, nav li.active a {
+    color: var(--branding-color);
+}
+
 
 .project-description {
     padding: 120px 60px;
@@ -136,5 +154,12 @@ max-width: 80%;
     .project-description {
         padding: 0;
         text-align: center;
+    }
+        .logo {
+            display: none;
+        }
+    nav ul {
+        padding: 14px;
+
     }
 }
