@@ -13,7 +13,7 @@ body {
     font-family: var(--deafault-font-family);
 }
 
-h1, h2,h3,h4,h5,h6 {
+h1, h2,h3, h4 {
 color: black;
 font-family: var(--heading-font-family);
 font-weight: bold;
@@ -28,18 +28,22 @@ h2 {
 }
 
 h4 {
-    font-size: 48px;
+    font-size: 37px;
+}
+
+ .work {
+    font-size: 19px;
 }
 
 p {
 font-weight: normal;
-font-size: 16px;
+font-size: 21px;
 line-height: 30px;
 }
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero p {
    
@@ -54,13 +58,14 @@ font-weight: normal;
 font-size: 24px;
 }
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content h1 {
     font-size: 64px;
     line-height: 80px;
     font-family: var(--heading-font-family);
+    text-align: center;
 }
 
 .content h2 {
@@ -75,10 +80,11 @@ font-size: 24px;
 }
 
 .content p {
-    font-size: 14px;
+    font-size: 19px;
 }
 .content {
     margin: 30px;
+    text-align: center;
 
 }
 .btn-branding {
@@ -101,6 +107,7 @@ border-radius: 4px;
 
 .logo {
     max-width: 200px;
+   margin: 0 1px 1px 60px;
 }
 
 nav ul {
@@ -132,11 +139,11 @@ nav a :hover, nav li.active a {
 
 
 .project-description {
-    padding: 120px 60px;
+    padding: 11px 60px;
 }
 
 .picture {
-max-width: 80%;
+max-width: 90%;
     border-radius: 12px;
 }
 
@@ -196,9 +203,7 @@ footer .social-links a:hover {
     .btn {
         font-size: 18px;
     }
-    .hero {
-        padding: 80px 20px;
-    }
+
     .content-container {
         text-align: center;
         padding: 0;
@@ -219,7 +224,7 @@ footer .social-links a:hover {
     }
 
     footer .contact-box {
-         text-align: center;
+         text-align: center ;
     }
 
      
