@@ -45,6 +45,7 @@ line-height: 30px;
     text-align: center;
     padding: 80px 20px;
 }
+
 .hero p {
    
     font-size: 36px;
@@ -188,44 +189,87 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
-    h1 {
-        font-size: 44px;
-        line-height: 56px;
+h2 {
+ font-size: 24px;
+        }  
+p {
+ font-size: 18px;
+                 }
+ .projects {
+margin: 36px !important;
     }
-    h2 {
-        font-size: 44px;
+   
+ .content h1 {
+ margin: 32px;
+ font-size: 30px;
+line-height: 36px;
+   }
+ .content h2 {
+font-size: 17px;
+line-height: 23px;
+  margin: 6px;
     }
+.hero {
+padding: 53px 20px;
+}
+ .hero h1 {
+ font-size: 30px;  
+ line-height: 36px;
+text-align: center;
+           } 
+ .hero h2 {
+font-size: 17px;
+  line-height: 23px;
+           }
 
-                h4 {
-                    font-size: 26px;
-                }
+ h4 {
+ font-size: 26px;
+}
 
-    .btn {
-        font-size: 18px;
+.btn {
+font-size: 18px;
+ display: block;
+ margin: 10%;
     }
-
-    .content-container {
-        text-align: center;
-        padding: 0;
+.content {
+margin: 0 -17px 1px 1px;
+text-align: justify;
+}
+ .content-container {
+text-align: center;
+ padding: 0;
     }
-    .project-description {
-        padding: 0;
-        text-align: center;
+.project-description {
+padding: 0;
+text-align: center;
     }
-        .logo {
+ .logo {
             display: none;
         }
-    nav ul {
-        padding: 14px;
-
-    }
-   footer .btn {
-        display: none;
-    }
-
-    footer .contact-box {
-         text-align: center ;
-    }
-
-     
+.picture {
+    display: none;
 }
+nav ul {
+ padding: 14px;
+ margin: 1px;
+    }
+
+nav ul a {
+ padding: 16px;
+ margin: -5%;
+         }
+     
+footer .btn {
+ display: none;
+    }
+
+footer .contact-box {
+ text-align: center ;
+    }
+footer .contact-box {
+ padding: 12px 82px;
+        } 
+}
+ footer .email-link {
+font-size: 18px;
+    }
