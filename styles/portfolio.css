@@ -88,6 +88,9 @@ font-size: 24px;
     text-align: center;
 
 }
+.courses {
+    margin: 277px 1px 1px 1px;
+}
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -209,6 +212,9 @@ font-size: 17px;
 line-height: 23px;
   margin: 6px;
     }
+.courses {
+    margin: auto;
+}
 .hero {
 padding: 53px 20px;
 }
